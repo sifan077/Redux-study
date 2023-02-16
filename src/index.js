@@ -3,8 +3,8 @@ import ReactDOM from "react-dom/client";
 import zhCN from 'antd/es/locale/zh_CN';
 import {ConfigProvider} from 'antd'
 import './util/http'
-// import App from "./App";
-import App from "./views/ReApp";
+// import App from "./views/App";
+import App from "./views/ReduxApp";
 
 import {Provider} from 'react-redux'
 import store from "./store/store";

@@ -1,6 +1,6 @@
 import {connect} from 'react-redux';
-import Counter from './views/Counter';
-import {increaseAction, decreaseAction, changeFlagAction} from './store/action';
+import Counter from './Counter';
+import {increaseAction, decreaseAction, changeFlagAction} from '../store/action';
 
 const mapStateToProps = (state) => ({
     count: state.countReducer.count,
